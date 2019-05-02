@@ -1,0 +1,151 @@
+new: 3
+size 0
+capacity 8
+empty 1
+insert 0
+insert 8
+insert 16
+size 3
+capacity 8
+empty 0
+member 0 1
+member 8 1
+member 16 1
+bin 0 0
+bin 1 8
+bin 3 16
+delete
+summary
+new: 3
+insert 0
+insert 8
+insert 16
+insert 32
+insert 64
+insert 128
+insert 256
+insert 512
+size 8
+capacity 8
+empty 0
+clear
+size 0
+capacity 8
+empty 1
+delete
+summary
+new: 3
+insert 0
+insert 8
+insert 16
+insert 32
+insert 64
+insert 128
+insert 256
+insert 512
+insert!     
+delete
+summary
+new: 3
+size 0
+capacity 8
+empty 1
+insert 0
+size 1
+capacity 8
+empty 0
+member 0 1
+member 8 0
+member 1 0
+bin 0 0
+insert 8
+size 2
+capacity 8
+empty 0
+member 0 1
+member 8 1
+member 16 0
+bin 0 0
+bin 1 8
+insert 16
+size 3
+capacity 8
+empty 0
+member 0 1
+member 8 1
+member 16 1
+bin 0 0
+bin 1 8
+bin 3 16
+delete
+summary
+new: 3
+insert 0
+member 0 1
+bin 0 0
+remove 0 1
+member 0 0
+insert 8
+member 8 1
+bin 0 8
+delete
+summary
+new: 3
+insert 0
+insert 8
+insert 16
+member 0 1
+member 8 1
+member 16 1
+size 3
+capacity 8
+empty 0
+remove 0 1
+member 0 0
+member 8 1
+member 16 1
+size 2
+capacity 8
+empty 0
+remove 8 1
+member 0 0
+member 8 0
+member 16 1
+size 1
+capacity 8
+empty 0
+remove 16 1
+member 0 0
+member 8 0
+member 16 0
+size 0
+capacity 8
+empty 1
+delete
+summary
+new
+capacity 32
+insert 50
+bin 18 50
+insert 82
+bin 21 82
+insert 114
+bin 24 114
+insert 18
+bin 19 18
+insert 19
+bin 20 19
+insert 21
+bin 22 21
+size 6
+remove 21 1
+remove 19 1
+remove 18 1
+remove 114 1
+remove 82 1
+remove 50 1
+empty 1
+member 114 0
+delete
+summary
+exit
