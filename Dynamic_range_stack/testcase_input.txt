@@ -1,0 +1,101 @@
+new
+capacity 10
+push 1
+push 2
+push 3
+push 4
+push 5
+push 6
+push 7
+push 8
+push 9
+push 10
+push 11
+capacity 20
+pop 11
+pop 10
+pop 9
+pop 8
+pop 7
+pop 6
+pop 5
+capacity 20
+delete
+summary
+new
+top!
+max!
+min!
+pop!
+delete
+summary
+new
+capacity 10
+push 1
+push 2
+push 3
+push 4
+push 5
+push 6
+push 7
+push 8
+push 9
+push 10
+push 11
+capacity 20
+clear
+size 0
+empty 1
+capacity 10
+delete
+summary
+new
+capacity 10
+push 1
+push 2
+push 3
+push 4
+push 5
+push 6
+push 7
+push 8
+push 9
+push 10
+push 11
+capacity 20
+delete
+summary
+new
+push 1
+push 2
+push 3
+clear
+size 0
+empty 1
+capacity 10
+delete
+summary
+new
+capacity 10
+push 1242
+push 2123
+push 344324
+push 42313
+push 5432
+push 621312
+push 742542
+push 8253452
+push 92342
+push 104636
+push 11234
+capacity 20
+pop 11234
+pop 104636
+pop 92342
+pop 8253452
+pop 742542
+pop 621312
+pop 5432
+capacity 20
+delete
+summary
